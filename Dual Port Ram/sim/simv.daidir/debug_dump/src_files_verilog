@@ -1,0 +1,16 @@
+/home1/WBRN23/SSArankalle/VLSI_RN/SV_LABS/Lab02/env/ram_if.sv
+/home1/WBRN23/SSArankalle/VLSI_RN/SV_LABS/Lab02/env_lib/ram_env.sv
+/home1/WBRN23/SSArankalle/VLSI_RN/SV_LABS/Lab02/env_lib/ram_gen.sv
+/home1/WBRN23/SSArankalle/VLSI_RN/SV_LABS/Lab02/env_lib/ram_model.sv
+/home1/WBRN23/SSArankalle/VLSI_RN/SV_LABS/Lab02/env_lib/ram_read_drv.sv
+/home1/WBRN23/SSArankalle/VLSI_RN/SV_LABS/Lab02/env_lib/ram_read_mon.sv
+/home1/WBRN23/SSArankalle/VLSI_RN/SV_LABS/Lab02/env_lib/ram_sb.sv
+/home1/WBRN23/SSArankalle/VLSI_RN/SV_LABS/Lab02/env_lib/ram_trans.sv
+/home1/WBRN23/SSArankalle/VLSI_RN/SV_LABS/Lab02/env_lib/ram_write_drv.sv
+/home1/WBRN23/SSArankalle/VLSI_RN/SV_LABS/Lab02/env_lib/ram_write_mon.sv
+/home1/WBRN23/SSArankalle/VLSI_RN/SV_LABS/Lab02/rtl/dual_mem.v
+/home1/WBRN23/SSArankalle/VLSI_RN/SV_LABS/Lab02/rtl/mem_dec.v
+/home1/WBRN23/SSArankalle/VLSI_RN/SV_LABS/Lab02/rtl/ram_4096.v
+/home1/WBRN23/SSArankalle/VLSI_RN/SV_LABS/Lab02/test/ram_pkg.sv
+/home1/WBRN23/SSArankalle/VLSI_RN/SV_LABS/Lab02/test/test.sv
+/home1/WBRN23/SSArankalle/VLSI_RN/SV_LABS/Lab02/test/top.sv

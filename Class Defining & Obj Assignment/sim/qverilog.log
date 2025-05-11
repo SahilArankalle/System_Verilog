@@ -1,0 +1,37 @@
+Start time: 12:30:37 on May 11,2025
+qverilog ../tb/test_obj_assignment.sv 
+-- Compiling module test_obj_assignment
+
+Top level modules:
+	test_obj_assignment
+# vsim -lib work work.test_obj_assignment -c -do "run -all; quit -f" -appendlog -l qverilog.log -vopt 
+# ** Note: (vsim-3812) Design is being optimized...
+# //  Questa Sim-64
+# //  Version 2022.1_2 linux_x86_64 Apr  2 2022
+# //
+# //  Copyright 1991-2022 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.test_obj_assignment(fast)
+# run -all
+# 
+#  packet 1 is = '{data:10, addr:50, mem:20}
+# 
+#  After assigning one object to the other,
+# 	 packet 1 is = '{data:10, addr:50, mem:20}
+# 	 packet 2 is = '{data:10, addr:50, mem:20}
+# After changing the values of properties with one handle,
+# 	 packet 1 is = '{data:5, addr:40, mem:20}
+# 	 packet 2 is = '{data:5, addr:40, mem:20}
+#  quit -f
+# End time: 12:30:40 on May 11,2025, Elapsed time: 0:00:03
+# Errors: 0, Warnings: 0

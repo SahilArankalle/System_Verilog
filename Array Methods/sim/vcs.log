@@ -1,0 +1,94 @@
+Command: vcs -l vcs.log -sverilog ../tb/test_array.sv
+                         Chronologic VCS (TM)
+       Version T-2022.06-SP1_Full64 -- Sun May 11 11:06:42 2025
+
+                    Copyright (c) 1991 - 2022 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+Parsing design file '../tb/test_array.sv'
+Top Level Modules:
+       test_array
+No TimeScale specified
+Starting vcs inline pass...
+
+1 module and 0 UDP read.
+recompiling module test_array
+make[1]: Entering directory '/home1/WBRN23/SSArankalle/VLSI_RN/SV_LABS/Lab01/sim/csrc' \
+
+rm -f _cuarc*.so _csrc*.so pre_vcsobj_*.so share_vcsobj_*.so
+if [ -x ../simv ]; then chmod a-x ../simv; fi
+g++  -o ../simv      -rdynamic  -Wl,-rpath='$ORIGIN'/simv.daidir -Wl,-rpath=./simv.daidir \
+-Wl,-rpath=/home/cad/eda/SYNOPSYS/VCS/vcs/T-2022.06-SP1/linux64/lib -L/home/cad/eda/SYNOPSYS/VCS/vcs/T-2022.06-SP1/linux64/lib \
+-Wl,-rpath-link=./  /usr/lib64/libnuma.so.1   objs/amcQw_d.o   _199760_archive_1.so \
+SIM_l.o      rmapats_mop.o rmapats.o rmar.o rmar_nd.o  rmar_llvm_0_1.o rmar_llvm_0_0.o \
+-lvirsim -lerrorinf -lsnpsmalloc -lvfs    -lvcsnew -lsimprofile -luclinative /home/cad/eda/SYNOPSYS/VCS/vcs/T-2022.06-SP1/linux64/lib/vcs_tls.o \
+-Wl,-whole-archive  -lvcsucli    -Wl,-no-whole-archive          /home/cad/eda/SYNOPSYS/VCS/vcs/T-2022.06-SP1/linux64/lib/vcs_save_restore_new.o \
+-ldl  -lc -lm -lpthread -ldl 
+../simv up to date
+make[1]: Leaving directory '/home1/WBRN23/SSArankalle/VLSI_RN/SV_LABS/Lab01/sim/csrc' \
+
+CPU time: .192 seconds to compile + .188 seconds to elab + .184 seconds to link
+Command: /home1/WBRN23/SSArankalle/VLSI_RN/SV_LABS/Lab01/sim/./simv -a vcs.log
+Chronologic VCS simulator copyright 1991-2022
+Contains Synopsys proprietary information.
+Compiler version T-2022.06-SP1_Full64; Runtime version T-2022.06-SP1_Full64;  May 11 11:06 2025
+data_da is = '{8, 17, 17, 7, 17, 17, 5, 2, 1, 9} 
+The sum is =         100
+The product is =   420945840
+The or is =          31
+The and is =           0
+The xor is =           0
+ no. of items greater than 7 = 6
+sum of all the items greater than 7 = 85
+
+after reverse da = '{9, 1, 2, 5, 17, 17, 7, 17, 17, 8} 
+
+after sort da = '{1, 2, 5, 7, 8, 9, 17, 17, 17, 17} 
+
+after rsort da = '{17, 17, 17, 17, 9, 8, 7, 5, 2, 1} 
+
+after shuffle da = '{2, 7, 5, 1, 8, 17, 17, 9, 17, 17} 
+
+minimum of da is, data_q = '{1} 
+maximum of da is, data_q = '{1, 17} 
+unique of da is, data_q = '{2, 7, 5, 1, 8, 17, 9} 
+finding first with item > 4 = '{7} 
+finding last with item > 4 = '{17} 
+finding first index with item > 4 = '{1} 
+finding last index with item > 4 = '{9} 
+find data of item > 4 = '{7, 5, 8, 17, 17, 9, 17, 17} 
+Display Random addresses in addr_q = '{18, 97, 29, 12, 89, 26, 97, 22, 85, 55}  
+
+data_mem[12] = 150
+data_mem[18] = 194
+data_mem[22] = 93
+data_mem[26] = 53
+data_mem[29] = 186
+data_mem[55] = 189
+data_mem[85] = 29
+data_mem[89] = 168
+data_mem[97] = 84
+
+ index of the first element is 12
+first element is 150
+
+ index of the last element is 97
+last element is 84
+
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 0
+CPU Time:      0.230 seconds;       Data structure size:   0.0Mb
+Sun May 11 11:06:43 2025
