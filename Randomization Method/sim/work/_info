@@ -1,0 +1,46 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 d/home1/WBRN23/SSArankalle/VLSI_RN/SV_LABS/Lab05/sim
+T_opt
+!s110 1747831378
+V5QBZP:eM;FjjHzC5<^]7[1
+04 11 4 work test_random fast 0
+=1-208810b9d0a7-682dca52-24da8-316462
+R0
+!s124 OEM100
+o-quiet -auto_acc_if_foreign -work work
+Z2 tCvgOpt 0
+n@_opt
+OL;O;2022.1_2;75
+vtest_random
+DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+!s110 1747831377
+!i10b 1
+!s100 AFeGYJW[;eBAjNB[AV6GQ0
+IokBDYFYa2^AY:eHee>[P<0
+S1
+R1
+w1747831311
+8../tb/test_random.sv
+F../tb/test_random.sv
+!i122 0
+L0 26 55
+VDg1SIo80bB@j0V0VzS_@n1
+OL;L;2022.1_2;75
+r1
+!s85 0
+31
+!s108 1747831377.000000
+!s107 ../tb/test_random.sv|
+!s90 ../tb/test_random.sv|
+!i113 0
+o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
