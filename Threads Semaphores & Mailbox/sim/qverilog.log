@@ -1,0 +1,48 @@
+Start time: 00:52:29 on May 25,2025
+qverilog ../tb/test_semaphore.sv 
+-- Compiling module test_semaphore
+
+Top level modules:
+	test_semaphore
+# vsim -lib work work.test_semaphore -c -do "run -all; quit -f" -appendlog -l qverilog.log -vopt 
+# ** Note: (vsim-3812) Design is being optimized...
+# //  Questa Sim-64
+# //  Version 2022.1_2 linux_x86_64 Apr  2 2022
+# //
+# //  Copyright 1991-2022 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.test_semaphore(fast)
+# run -all
+# Driver 1 got key
+# Driver 1 dropped key
+# Driver 2 got key
+# Driver 2 dropped key
+# Driver 1 got key
+# Driver 1 dropped key
+# Driver 2 got key
+# Driver 2 dropped key
+# Driver 1 got key
+# Driver 1 dropped key
+# Driver 2 got key
+# Driver 2 dropped key
+# Driver 1 got key
+# Driver 1 dropped key
+# Driver 2 got key
+# Driver 2 dropped key
+# Driver 1 got key
+# Driver 1 dropped key
+# Driver 2 got key
+# Driver 2 dropped key
+#  quit -f
+# End time: 00:52:30 on May 25,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
