@@ -1,0 +1,178 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+!s11f vlog 2022.1_2 2022.04, Apr  2 2022
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 d/home1/WBRN23/SSArankalle/VLSI_RN/SV_LABS/Lab07/sim
+T_opt
+!s11d ram_pkg /home1/WBRN23/SSArankalle/VLSI_RN/SV_LABS/Lab07/sim/work 1 ram_if 1 /home1/WBRN23/SSArankalle/VLSI_RN/SV_LABS/Lab07/sim/work 
+Z2 !s110 1748168725
+VXC1n`OcajUGE@zS^_=76Z1
+04 3 4 work top fast 0
+=1-208810b9d0a7-6832f015-b9902-102413
+R0
+!s124 OEM100
+o-quiet -auto_acc_if_foreign -work work +acc
+Z3 tCvgOpt 0
+n@_opt
+OL;O;2022.1_2;75
+vdual_mem
+Z4 !s110 1748168724
+!i10b 1
+!s100 fkIMAYXfHFNFkKV[4lj6Z3
+Img7ZnO9^D;6^@28YFO1n=0
+R1
+Z5 w1723880886
+8../rtl/dual_mem.v
+F../rtl/dual_mem.v
+!i122 0
+L0 27 51
+Z6 VDg1SIo80bB@j0V0VzS_@n1
+Z7 OL;L;2022.1_2;75
+r1
+!s85 0
+31
+Z8 !s108 1748168724.000000
+Z9 !s107 ../test/test.sv|../env_lib/ram_env.sv|../env_lib/ram_read_mon.sv|../env_lib/ram_write_mon.sv|../env_lib/ram_read_drv.sv|../env_lib/ram_write_drv.sv|../env_lib/ram_gen.sv|../env/ram_trans.sv|../test/top.sv|../test/ram_pkg.sv|../env_lib/ram_if.sv|../rtl/ram_4096.v|../rtl/mem_dec.v|../rtl/dual_mem.v|
+Z10 !s90 -work|work|../rtl/dual_mem.v|../rtl/mem_dec.v|../rtl/ram_4096.v|+incdir+../env|+incdir+../env_lib|+incdir+../test|../env_lib/ram_if.sv|../test/ram_pkg.sv|../test/top.sv|
+!i113 0
+Z11 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z12 !s92 -work work +incdir+../env +incdir+../env_lib +incdir+../test -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R3
+vmem_dec
+R4
+!i10b 1
+!s100 Pf<MgZDLHEe^cS816CD_]1
+IA><;3=^>MJnPbm9^:QoQ[2
+R1
+R5
+8../rtl/mem_dec.v
+F../rtl/mem_dec.v
+!i122 0
+L0 27 25
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+R3
+vram_4096
+R4
+!i10b 1
+!s100 gOPa;^E<EZbe7I_=H5^k@3
+I6XZ`@Zi@hCOKK@3983Z:k3
+R1
+R5
+8../rtl/ram_4096.v
+F../rtl/ram_4096.v
+!i122 0
+L0 29 91
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+R3
+Yram_if
+Z13 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+R4
+!i10b 1
+!s100 hG[LN?_`dPoO5H21Z_i4?2
+I:dog1d4cl=S91XHK4F`AZ0
+S1
+R1
+R5
+8../env_lib/ram_if.sv
+F../env_lib/ram_if.sv
+!i122 0
+L0 27 0
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+R3
+Xram_pkg
+!s115 ram_if
+R13
+R2
+!i10b 1
+!s100 K1j0J9BIZ?0TIm>CV2ZF_0
+IHF`fjf2@gG=V=G>kfbIc02
+S1
+R1
+w1748168714
+8../test/ram_pkg.sv
+F../test/ram_pkg.sv
+F../env/ram_trans.sv
+F../env_lib/ram_gen.sv
+F../env_lib/ram_write_drv.sv
+F../env_lib/ram_read_drv.sv
+F../env_lib/ram_write_mon.sv
+F../env_lib/ram_read_mon.sv
+F../env_lib/ram_env.sv
+F../test/test.sv
+!i122 0
+L0 25 0
+VHF`fjf2@gG=V=G>kfbIc02
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+R3
+vtop
+R13
+DXx4 work 7 ram_pkg 0 22 HF`fjf2@gG=V=G>kfbIc02
+R2
+!i10b 1
+!s100 LaYdL2XaaoSLcR]i5BfYc0
+IAfdB1AiOdi3dI;JMzDfIz0
+S1
+R1
+R5
+8../test/top.sv
+F../test/top.sv
+!i122 0
+L0 25 49
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+R3
