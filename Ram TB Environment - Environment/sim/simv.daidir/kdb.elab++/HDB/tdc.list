@@ -1,0 +1,16 @@
+../env/ram_env.sv
+../env_lib/ram_gen.sv
+../env_lib/ram_if.sv
+../env_lib/ram_model.sv
+../env_lib/ram_read_drv.sv
+../env_lib/ram_read_mon.sv
+../env_lib/ram_sb.sv
+../env_lib/ram_trans.sv
+../env_lib/ram_write_drv.sv
+../env_lib/ram_write_mon.sv
+../rtl/dual_mem.v
+../rtl/mem_dec.v
+../rtl/ram_4096.v
+../test/ram_pkg.sv
+../test/test.sv
+../test/top.sv

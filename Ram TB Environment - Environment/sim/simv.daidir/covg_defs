@@ -1,0 +1,138 @@
+global coverage_group 0 ram_pkg::ram_sb::mem_coverage __coverage_ram_sb.mem_coverage unused_ram_sb_mem_coverage_loop_label ram_pkg 0 1 0 0 0  ( 0 
+)
+ 1 1
+ 0 72 /home1/WBRN23/SSArankalle/VLSI_RN/SV_LABS/Lab10/sim/../env_lib/ram_sb.sv
+ 52 0 0 0 1 0 0 0 0  1
+0
+0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 41 ram_sb::ram_pkg_ram_sb_mem_coverage_fn_20
+0
+0
+0
+64
+0
+ 0
+
+3
+0
+1
+0
+ 6 RD_ADD 55 0 0 0 0 0 38 ram_sb::ram_pkg_ram_sb_mem_coverage_fn 38 ram_sb::ram_pkg_ram_sb_mem_coverage_fn 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 -1 2 12 0 0 1 0 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 9 1 1 0 0 1 1 4 ZERO 56 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 40 ram_sb::ram_pkg_ram_sb_mem_coverage_fn_0 0 0 0 0 0 0 0
+ 0
+ 1 1 0 0 1 1 4 LOW1 57 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 40 ram_sb::ram_pkg_ram_sb_mem_coverage_fn_1 0 40 ram_sb::ram_pkg_ram_sb_mem_coverage_fn_2 0 0 0 0 0
+ 0
+ 1 1 0 0 1 1 4 LOW2 58 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 40 ram_sb::ram_pkg_ram_sb_mem_coverage_fn_3 0 40 ram_sb::ram_pkg_ram_sb_mem_coverage_fn_4 0 0 0 0 0
+ 0
+ 1 1 0 0 1 1 7 MID_LOW 59 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 40 ram_sb::ram_pkg_ram_sb_mem_coverage_fn_5 0 40 ram_sb::ram_pkg_ram_sb_mem_coverage_fn_6 0 0 0 0 0
+ 0
+ 1 1 0 0 1 1 3 MID 60 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 40 ram_sb::ram_pkg_ram_sb_mem_coverage_fn_7 0 40 ram_sb::ram_pkg_ram_sb_mem_coverage_fn_8 0 0 0 0 0
+ 0
+ 1 1 0 0 1 1 8 MID_HIGH 61 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 40 ram_sb::ram_pkg_ram_sb_mem_coverage_fn_9 0 40 ram_sb::ram_pkg_ram_sb_mem_coverage_fn_a 0 0 0 0 0
+ 0
+ 1 1 0 0 1 1 5 HIGH1 62 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 40 ram_sb::ram_pkg_ram_sb_mem_coverage_fn_b 0 40 ram_sb::ram_pkg_ram_sb_mem_coverage_fn_c 0 0 0 0 0
+ 0
+ 1 1 0 0 1 1 5 HIGH2 63 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 40 ram_sb::ram_pkg_ram_sb_mem_coverage_fn_d 0 40 ram_sb::ram_pkg_ram_sb_mem_coverage_fn_e 0 0 0 0 0
+ 0
+ 1 1 0 0 1 1 3 MAX 64 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 40 ram_sb::ram_pkg_ram_sb_mem_coverage_fn_f 0 0 0 0 0 0 0
+ 0
+
+ 4 DATA 67 0 0 0 0 0 41 ram_sb::ram_pkg_ram_sb_mem_coverage_fn_10 41 ram_sb::ram_pkg_ram_sb_mem_coverage_fn_10 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 -1 2 64 0 0 1 0 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 9 1 1 0 0 1 1 4 ZERO 68 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 40 ram_sb::ram_pkg_ram_sb_mem_coverage_fn_0 0 0 0 0 0 0 0
+ 0
+ 1 1 0 0 1 1 4 LOW1 69 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 40 ram_sb::ram_pkg_ram_sb_mem_coverage_fn_1 0 41 ram_sb::ram_pkg_ram_sb_mem_coverage_fn_11 0 0 0 0 0
+ 0
+ 1 1 0 0 1 1 4 LOW2 70 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 41 ram_sb::ram_pkg_ram_sb_mem_coverage_fn_12 0 41 ram_sb::ram_pkg_ram_sb_mem_coverage_fn_13 0 0 0 0 0
+ 0
+ 1 1 0 0 1 1 7 MID_LOW 71 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 41 ram_sb::ram_pkg_ram_sb_mem_coverage_fn_14 0 41 ram_sb::ram_pkg_ram_sb_mem_coverage_fn_15 0 0 0 0 0
+ 0
+ 1 1 0 0 1 1 3 MID 72 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 41 ram_sb::ram_pkg_ram_sb_mem_coverage_fn_16 0 41 ram_sb::ram_pkg_ram_sb_mem_coverage_fn_17 0 0 0 0 0
+ 0
+ 1 1 0 0 1 1 8 MID_HIGH 73 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 41 ram_sb::ram_pkg_ram_sb_mem_coverage_fn_18 0 41 ram_sb::ram_pkg_ram_sb_mem_coverage_fn_19 0 0 0 0 0
+ 0
+ 1 1 0 0 1 1 5 HIGH1 74 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 41 ram_sb::ram_pkg_ram_sb_mem_coverage_fn_1a 0 41 ram_sb::ram_pkg_ram_sb_mem_coverage_fn_1b 0 0 0 0 0
+ 0
+ 1 1 0 0 1 1 5 HIGH2 75 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 41 ram_sb::ram_pkg_ram_sb_mem_coverage_fn_1b 0 41 ram_sb::ram_pkg_ram_sb_mem_coverage_fn_1c 0 0 0 0 0
+ 0
+ 1 1 0 0 1 1 3 MAX 76 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 41 ram_sb::ram_pkg_ram_sb_mem_coverage_fn_1d 0 0 0 0 0 0 0
+ 0
+
+ 2 RD 79 0 0 0 0 0 41 ram_sb::ram_pkg_ram_sb_mem_coverage_fn_1e 41 ram_sb::ram_pkg_ram_sb_mem_coverage_fn_1e 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 -1 2 1 0 0 1 0 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 1 1 1 0 0 1 1 4 read 80 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 41 ram_sb::ram_pkg_ram_sb_mem_coverage_fn_1f 0 0 0 0 0 0 0
+ 0
+
+ 8 READxADD 0 83 0 0 -1 0 0 0 0 2 2 0 -1 0 0 0
+ 0
+ 0
+ 0
+ 0 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+end_coverage_group

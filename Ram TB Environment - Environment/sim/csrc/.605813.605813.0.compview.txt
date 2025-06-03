@@ -1,0 +1,9 @@
+{"vcs1":{"timestamp_begin":1748896529.323166381, "rt":0.34, "ut":0.27, "st":0.09}}
+{"vcselab":{"timestamp_begin":1748896529.710586969, "rt":0.23, "ut":0.18, "st":0.04}}
+{"link":{"timestamp_begin":1748896529.980332628, "rt":0.13, "ut":0.10, "st":0.03}}
+{"SNPS_VCS_INTERNAL_ROOT_START_TIME": 1748896528.985418584}
+{"VCS_COMP_START_TIME": 1748896528.985418584}
+{"VCS_COMP_END_TIME": 1748896531.055438866}
+{"VCS_USER_OPTIONS": "-full64 -l comp.log -sverilog -debug_access+all -kdb -lca -P /home/cad/eda/SYNOPSYS/VERDI_2022/verdi/T-2022.06-SP1/share/PLI/VCS/LINUX64/novas.tab /home/cad/eda/SYNOPSYS/VERDI_2022/verdi/T-2022.06-SP1/share/PLI/VCS/LINUX64/pli.a ../rtl/dual_mem.v ../rtl/mem_dec.v ../rtl/ram_4096.v +incdir+../env +incdir+../env_lib +incdir+../test ../env_lib/ram_if.sv ../test/ram_pkg.sv ../test/top.sv"}
+{"vcs1": {"peak_mem": 606370}}
+{"stitch_vcselab": {"peak_mem": 606429}}
